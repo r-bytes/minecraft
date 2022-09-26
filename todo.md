@@ -2,11 +2,11 @@
 - [x] Sky
 - [x] Textures and Images
 - [x] Ground
-- [] Keyboard Inputs
-- [] Player
-- [] First Person POV
-- [] Gravity
-- [] Movement
+- [x] Keyboard Inputs
+- [x] Player
+- [x] First Person POV
+- [x] Gravity
+- [x] Movement
 - [] State Management
 - [] Cubes
 - [] Cube type Selector
