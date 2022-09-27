@@ -10,7 +10,6 @@ const SPEED = 4
 export const Player = () => {
 
     const {moveBackward, moveForward, moveLeft, moveRight, jump} = useKeyboard()
-    // console.log("actions", Object.entries(actions).filter(([k, v]) => v))
     
     const { camera } = useThree()
     const [ref, api] = useSphere(() => ({
@@ -49,7 +48,7 @@ export const Player = () => {
         .multiplyScalar(SPEED)
         .applyEuler(camera.rotation)
 
-        api.velocity.set(direction.x, vel.current[1], direction.z )
+        api.velocity.set(direction.x, vel.current[1], direction.z)
         
         if (jump && Math.abs(vel.current[1]) < 0.05) {
             api.velocity.set(vel.current[0], JUMP_FORCE, vel.current[2])
