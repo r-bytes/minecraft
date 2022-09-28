@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# Getting Started with creating Minecraft using React and Tree.Js
+
+![Minecraft](./public/minecraft.png?raw=true "Minecraft")
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
